@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Авторизация</title>
+  <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/main.js" type="module" defer></script>
+</head>
+
+<body>
+  <main>
+    <section class="auth">
+      <div class="auth__container">
+        <div class="auth__content">
+          <img src="./img/logo.svg" alt="Flower" class="auth__logo" width="192" height="192">
+          <h2 class="auth__title">Авторизация</h2>
+          <form class="form" id="form">
+            <label class="form__label" aria-label="Поле ввода адреса email или номера телефона">
+              <input class="form__input form__input--login" id="login" type="text" name="login"
+                placeholder="Email или телефон" autocomplete="username">
+            </label>
+            <label class="form__label" aria-label="Поле ввода пароля">
+              <input class="form__input form__input--password" id="password" type="password" name="password"
+                placeholder="Пароль" autocomplete="current-password">
+            </label>
+            <button class="form__submit" type="submit">Войти</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
